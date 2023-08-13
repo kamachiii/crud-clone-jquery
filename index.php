@@ -33,14 +33,15 @@
                     <div class="col-auto">
                         <input type="date" name="date[]" placeholder="Masukkan Tanggal" class="form-control" autocomplete="off" required>
                     </div>
+                    <div class="col-auto">
+                        <button class="btn btn-danger" type="button" id="remove">Remove</button>
+                    </div>
                 </div>
             </div>
             <!-- End Form Container -->
 
-            <div class="">
-                <button class="btn btn-primary" type="button" id="add">Add</button>
-            </div>
             <div class="col-auto mt-3">
+                <button class="btn btn-primary" type="button" id="add">Add</button>
                 <button class="btn btn-primary" type="submit" id="submit" name="submit">Submit</button>
             </div>
         </form>

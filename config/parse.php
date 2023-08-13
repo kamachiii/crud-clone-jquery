@@ -1,8 +1,8 @@
 <?php
 
-namespace Parse;
+namespace Config;
 
-class ParseEnv
+class Parse
 {
     /**
      * The directory where the .env file can be located.
