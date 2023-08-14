@@ -3,7 +3,7 @@
 
     use Config\Parse;
 
-    (new Parse('.env'))->load();
+    (new Parse(__DIR__.'/../.env'))->load();
 
     $dbHost = getenv('DB_HOST');
     $dbUser = getenv('DB_USER');
